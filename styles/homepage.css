@@ -1,0 +1,65 @@
+/*--- LEFT SECTION ---*/
+.content-section {
+	height: 1080px;
+	background-color: #7c7e8a;
+	background-image: linear-gradient(140deg, #7c7e8a, black);
+	display: grid;
+	grid-template-columns: 7fr 5fr;
+}
+
+.content-section > .text-wrapper {
+	display: grid;
+	grid-template-rows: 300px 300px 40px;
+	justify-content: center;
+	align-items: center;
+	font-size: 3em;
+	font-family: 'roboto condensed', sans-serif;
+}
+
+.content-section > .text-wrapper > .text1 {
+	color: white;
+	font-family: 'Ubuntu condensed', sans-serif;
+}
+
+.content-section > .text-wrapper > .text2 {
+	color: lightgray;
+}
+
+.content-section > .text-wrapper > .buttons {
+	display: flex;
+	justify-content: space-between;
+	width: 700px;
+}
+
+.content-section > .text-wrapper > .buttons > .signup a {
+	text-decoration: none;
+	color: black;
+	background-color: springgreen;
+	padding: 20px 40px;
+	border-radius: 5px;
+}
+
+.content-section > .text-wrapper > .buttons > .learn a {
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	padding: 20px 40px;
+	border-radius: 5px;
+}
+
+/*--- RIGHT SECTION ---*/
+.content-section > .image-wrapper {
+	padding: 60px 0px 0px 0px;
+	font-size: 2em;
+	font-family: 'roboto condensed', sans-serif;
+	color: white;
+}
+
+.content-section > .image-wrapper a {
+	text-decoration: none;
+	color: rgb(62, 184, 214);
+}
+
+.content-section > .image-wrapper img {
+	width: 1180px;
+}
